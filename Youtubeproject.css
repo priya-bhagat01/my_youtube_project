@@ -16,21 +16,23 @@
 .video-preview{
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 20px;
-}
-.thumbnailImage{
-	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 12px;
 	width: 300px;
 }
+.thumbnailImage{
+	width: 300px;
+}
+.info-box{
+	margin-top: 10px;
+	display: grid;
+	grid-template-columns: 50px 1fr;
+}
 .profilePicture{
-	vertical-align: top;
-	display: inline-block;
-	width: 50px;
-	object-fit: contain;
+	
 }
 .video-details{
-	width: 200px;
-	display: inline-block;
+	
 }
 .picture ,
 .image {
@@ -50,9 +52,6 @@
 .picture{
 	width: 40px;
 	border-radius: 50px;
-}
-.info-box{
-	margin-top: 10px;
 }
 p{
 	margin-top: 0;
