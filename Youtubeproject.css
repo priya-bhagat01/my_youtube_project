@@ -18,10 +18,9 @@
 	vertical-align: top;
 	margin-right: 15px;
 	margin-bottom: 12px;
-	width: 300px;
 }
 .thumbnailImage{
-	width: 300px;
+	width: 100%;
 }
 .info-box{
 	margin-top: 10px;
@@ -66,4 +65,8 @@ p{
 }
 .channel-name{
 	margin-bottom: 4px;
+}
+.video-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 }
