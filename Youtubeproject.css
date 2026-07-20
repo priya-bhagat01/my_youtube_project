@@ -1,23 +1,72 @@
-/*Button img{
+Button img{
 	width: 24px;
 	height: 24px;
 	object-fit: contain;
 }
-.headBar{
-	display: grid;
-	grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+Button{
+	border: none;
 }
-.sidebar{
-	border: 0;
+body{
+	margin: 0;
+}
+.headBar{
+	/*position: fixed;*/
+	height: 55px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-width: 1px;
+	margin-bottom: 20px;
+	margin-top: 0;
+	justify-content: space-between;
+	padding: 0;
+}
+.left-head{
+	display: flex;
+	align-items: center;
+	margin: 0;
+	font-size: 20px;
+}
+/*.sidebar{
+	border: none;
+	background: none;
+	cursor: pointer;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}*/
+.mid-head{
+	margin-left: 300px;
+	display: flex;
+	flex-direction: row;
+	flex: 1;
 }
 .youtubeIcon{
 	width: 40px;
-}*/
-.video-preview{
-	display: inline-block;
-	vertical-align: top;
-	margin-right: 15px;
-	margin-bottom: 12px;
+	height: auto;
+}
+.search-bar{
+	align-items: center;
+	font-weight: lighter;
+	font-size: 16px;
+	width: 250px;
+	height:40px;
+}
+.searchButton{
+	width: 40px;
+	border: solid lightgrey;
+	border-width: 1px;
+	justify-content: contain;
+}
+.searchButton img{
+	width:25px;
+	height: 25px;
+	object-fit: contain;
+}
+.micButton{
+	margin-left: 15px;
+	width: 40px;
+	border-radius: 50px;
 }
 .thumbnailImage{
 	width: 100%;
@@ -26,12 +75,6 @@
 	margin-top: 10px;
 	display: grid;
 	grid-template-columns: 50px 1fr;
-}
-.profilePicture{
-	
-}
-.video-details{
-	
 }
 .picture ,
 .image {
@@ -45,9 +88,6 @@
 	line-height: 20px;
 	margin-bottom: 10px;
 }
-.search-bar{
-	display: block;
-}
 .picture{
 	width: 40px;
 	border-radius: 50px;
@@ -59,6 +99,7 @@ p{
 }
 .channel-name ,
 .video-time{
+	min-height: 40px;
 	margin-bottom: 0;
 	font-size: 12px;
 	color: rgb(96, 96, 96);
@@ -68,5 +109,9 @@ p{
 }
 .video-grid{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 16px;
+	row-gap: 40px;
+	align-items: stretch;
+	height: 100%;
 }
