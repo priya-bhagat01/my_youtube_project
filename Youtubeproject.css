@@ -26,15 +26,14 @@ body{
 	display: flex;
 	align-items: center;
 	font-size: 18px;
-
 }
 .sidebar{
 	height: 24px;
 	border: none;
 	background: none;
 	cursor: pointer;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 24px;
+	margin-right: 24px;
 	display: flex;
 	align-items: center;
 }
@@ -52,6 +51,7 @@ body{
 }
 .right-head{
 	width: 200px;
+	background-color: lightcoral;
 }
 .youtubeIcon{
 	width: 40px;
@@ -62,6 +62,8 @@ body{
 	height: 20px;
 }
 .search-bar{
+	display: flex;
+	flex: 1;
 	align-items: center;
 	font-weight: lighter;
 	font-size: 16px;
@@ -69,20 +71,33 @@ body{
 	height:40px;
 }
 .searchButton{
-	width: 40px;
+	margin: 0;
+	padding: 0;
+	width: 60px;
+	height: 47px;
 	border: solid lightgrey;
 	border-width: 1px;
 	justify-content: contain;
 }
 .searchButton img{
-	width:25px;
-	height: 25px;
+	margin: 0;
+	padding: 0;
+	width:60px;
+	height: 40px;
 	object-fit: contain;
 }
 .micButton{
 	margin-left: 15px;
 	width: 40px;
 	border-radius: 50px;
+	overflow: hidden;
+}
+.micButton img{
+	margin: 0;
+	padding: 0;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
 }
 .thumbnailImage{
 	width: 100%;
