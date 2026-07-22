@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 Button img{
 	width: 24px;
 	height: 24px;
@@ -63,4 +66,14 @@ p{
 	row-gap: 40px;
 	align-items: stretch;
 	height: 100%;
+}
+.thumbnailImage{
+	position: relative;
+}
+.timeStamps{
+	position: absolute;
+	background-color: black;
+	color: white;
+	bottom: 5px;
+	right: 5px;
 }
