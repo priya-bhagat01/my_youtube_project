@@ -10,6 +10,7 @@ body{
 	margin: 0;
 	padding-top: 100px;
 	padding-left: 100px;
+	background-color: #f2f2f2;
 }
 .headBar{
 	position: fixed;
@@ -33,15 +34,13 @@ body{
 	position: fixed;
 	top: 68px;
 	left: 0;
-	height: auto;
+	bottom: 0;
 	background-color: white;
 	display: flex;
 	align-items: start;
 	flex-direction: column;
 	padding: 0;
-	border-right: solid lightgray;
-	width: 90px;
-	border-block-width: 1px;
+	width: 80px;
 }
 .homeButton ,
 .exploreButton ,
@@ -53,7 +52,6 @@ body{
 	cursor: pointer;
 	border: none;
 	background-color: white;
-	height: 50px;
 	width: 50px;
 	overflow: hidden;
 	object-fit: cover;
@@ -61,6 +59,62 @@ body{
 	justify-content: center;
 	align-items: center;
 	padding: 0;
+}
+.homeButton img,
+.exploreButton img,
+.subscriptionsButton img,
+.originalsButton img,
+.musicButton img,
+.libraryButton img{
+	padding-bottom: 0;
+	margin-bottom: 0;
+	width: 30px;
+	height: 30px;
+	object-fit: contain;
+	mix-blend-mode: multiply;
+	object-fit: cover;
+}
+.home ,
+.explore ,
+.subscription ,
+.original ,
+.music ,
+.library{
+	font-family: Roboto , Arial;
+	font-weight: 500;
+	padding-top: 0;
+	margin-top: 0;
+	font-size: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.home{
+	margin-left: 26px;
+}
+.explore{
+	margin-left: 25px;
+}
+.subscriptionsButton{
+	width: 50px;
+	height: 60px;
+}
+.subscriptionsButton img{
+	width: 50px;
+	height: 60px;
+}
+.subscription{
+	margin-left: 15px;
+}
+.original{
+	margin-left: 20px;
+}
+.music{
+	margin-left: 28px;
+}
+.library{
+	margin-left: 25px;
 }
 .left-head{
 	display: flex;
