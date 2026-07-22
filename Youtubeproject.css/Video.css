@@ -71,6 +71,11 @@ p{
 	position: relative;
 }
 .timeStamps{
+	font-family: Roboto , Arial;
+	font-size: 12px;
+	font-weight: 500;
+	padding: 4px;
+	border-radius: 2px;
 	position: absolute;
 	background-color: black;
 	color: white;
