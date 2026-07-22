@@ -135,8 +135,7 @@
 	padding: 0;
 }
 .micButton img ,
-.createButton img ,
-.notificationButton img{
+.createButton img{
 	width: 30px;
 	height: 30px;
 	object-fit: contain;
@@ -174,8 +173,25 @@
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
-	object-fit: cover;
+	object-fit: contain;
 	mix-blend-mode: multiply;
+}
+.notifications{
+	position: absolute;
+	top: 10px;
+	right: 95px;
+	background-color: rgb(204, 0, 0);
+	color: white;
+	width: 25px;
+	height: 25px;
+	display: flex;
+	justify-content: center;
+	padding: 1.5px, 5px;
+	border: solid;
+	border-width: 1px;
+	border-radius: 50px;
+	align-items: center;
+	z-index: 1; /*(Decides which will appear above)*/
 }
 .profilePhoto{
 	cursor: pointer;
