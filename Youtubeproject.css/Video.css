@@ -83,3 +83,8 @@ p{
 	bottom: 5px;
 	right: 5px;
 }
+.video-link{
+	text-decoration: none;
+	color: inherit; /*(Prevents text from turning blue)*/
+	display: block;
+}
