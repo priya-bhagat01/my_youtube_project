@@ -225,6 +225,7 @@
 	font-size: 14px;
 	opacity: 0;
 	border-radius: 2px;
+	pointer-events: none;
 }
 .micButton .tooltip{
 	position: absolute;
@@ -236,6 +237,7 @@
 	font-size: 14px;
 	opacity: 0;
 	border-radius: 2px;
+	pointer-events: none;
 }
 .createButton .tooltip{
 	position: absolute;
@@ -247,6 +249,7 @@
 	font-size: 14px;
 	opacity: 0;
 	border-radius: 2px;
+	pointer-events: none;
 }
 .notificationButton .tooltip{
 	position: absolute;
@@ -258,6 +261,8 @@
 	font-size: 14px;
 	opacity: 0;
 	border-radius: 2px;
+	transition: opacity 0.15s;
+	pointer-events: none; /*(will not show tooltip when hover above div tooltip)*/
 }
 .searchButton:hover .tooltip ,
 .micButton:hover .tooltip ,
