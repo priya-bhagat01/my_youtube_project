@@ -1,4 +1,5 @@
 .headBar{
+	z-index: 100;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -191,6 +192,8 @@
 	border-width: 1px;
 	border-radius: 50px;
 	align-items: center;
+	font-family: Roboto ,Arial;
+	font-size: 14px;
 	z-index: 1; /*(Decides which will appear above)*/
 }
 .profilePhoto{
