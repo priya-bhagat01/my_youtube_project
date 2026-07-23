@@ -20,3 +20,12 @@ A pixel-perfect, responsive frontend clone of the YouTube homepage interface, bu
 ## 🧰 Tech Stack
 - HTML5 (Semantic Structure)
 - CSS3 (Flexbox & Grid Systems)
+## ⚠️ Disclaimer
+
+This project is a clone of YouTube built strictly for **educational and portfolio purposes**. 
+
+* **No Copyright Infringement Intended:** All logos, icons, trademarks, and video thumbnail assets visible in this project are the intellectual property of **Google LLC / YouTube** and their respective content creators.
+* **Non-Commercial:** This project is entirely open-source, non-monetized, and not intended for commercial production or distribution.
+* **Fair Use:** The use of brand aesthetics and public mock data falls under **Fair Use** for educational commentary and web development practice.
+
+If you are a copyright owner and wish to have any specific asset or reference removed, please open an issue or contact me directly, and it will be taken down immediately.
