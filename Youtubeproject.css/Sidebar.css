@@ -14,12 +14,7 @@
 .sidebar-container:hover{
 	background-color: lightgray;
 }
-.homeButton ,
-.exploreButton ,
-.subscriptionsButton ,
-.originalsButton ,
-.musicButton ,
-.libraryButton{
+.sidebar-container button{
 	margin-right: 18px;
 	margin-top: 10px;
 	margin-left: 18px;
@@ -34,26 +29,16 @@
 	align-items: center;
 	padding: 0;
 }
-.homeButton img,
-.exploreButton img,
-.subscriptionsButton img,
-.originalsButton img,
-.musicButton img,
-.libraryButton img{
+.sidebar-container img{
 	padding-bottom: 0;
-	margin-bottom: 0;
-	width: 30px;
-	height: 30px;
+	margin-bottom: 6px;
+	width: 40px;
+	height: 40px;
 	object-fit: contain;
 	mix-blend-mode: multiply;
 	object-fit: cover;
 }
-.home ,
-.explore ,
-.subscription ,
-.original ,
-.music ,
-.library{
+.sidebar-container p{
 	font-family: Roboto , Arial;
 	font-weight: 500;
 	padding-top: 0;

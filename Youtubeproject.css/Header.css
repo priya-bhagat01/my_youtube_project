@@ -23,18 +23,18 @@
 	font-size: 18px;
 }
 .hamburger{
-	height: 24px;
+	height: 35px;
 	border: none;
 	background: none;
 	cursor: pointer;
-	margin-left: 24px;
+	margin-left: 21px;
 	margin-right: 24px;
 	display: flex;
 	align-items: center;
 }
-.sidebar img{
-	height: 24px;
-	width: 24px;
+.hamburger img{
+	height: 32px;
+	width: 30px;
 }
 .mid-head{
 	margin-left: 70px;
@@ -98,6 +98,7 @@
 	align-items: center;
 	padding: 0;
 	background-color: white;
+	position: relative;
 }
 .searchButton img{
 	margin: 0;
@@ -208,4 +209,59 @@
 	height: 100%;
 	border-radius: 50%;
 	object-fit: cover;
+}
+.createButton:hover ,
+.notificationButton:hover ,
+.micButton:hover{
+	background-color: lightgrey;
+}
+.searchButton .tooltip{
+	position: absolute;
+	bottom: -50px;
+	background-color: gray;
+	color: white;
+	padding: 4px 6px;
+	font-family: Roboto , Arial;
+	font-size: 14px;
+	opacity: 0;
+	border-radius: 2px;
+}
+.micButton .tooltip{
+	position: absolute;
+	bottom: -35px;
+	background-color: gray;
+	color: white;
+	padding: 4px 6px;
+	font-family: Roboto , Arial;
+	font-size: 14px;
+	opacity: 0;
+	border-radius: 2px;
+}
+.createButton .tooltip{
+	position: absolute;
+	bottom: -35px;
+	background-color: gray;
+	color: white;
+	padding: 4px 6px;
+	font-family: Roboto , Arial;
+	font-size: 14px;
+	opacity: 0;
+	border-radius: 2px;
+}
+.notificationButton .tooltip{
+	position: absolute;
+	bottom: -35px;
+	background-color: gray;
+	color: white;
+	padding: 4px 6px;
+	font-family: Roboto , Arial;
+	font-size: 14px;
+	opacity: 0;
+	border-radius: 2px;
+}
+.searchButton:hover .tooltip ,
+.micButton:hover .tooltip ,
+.createButton:hover .tooltip ,
+.notificationButton:hover .tooltip{
+	opacity: 1;
 }
